@@ -202,7 +202,7 @@ def compatibility_manifest() -> dict[str, Any]:
         "studio": app,
         "tested_matrix": {
             "studio_versions": sorted(TESTED_STUDIO_VERSIONS),
-            "mcp_sdk": "mcp==1.29.0",
+            "mcp_sdk": "mcp==1.30.0",
             "python": ["3.10", "3.11", "3.12"],
             "platform": "macOS Apple Silicon",
         },
